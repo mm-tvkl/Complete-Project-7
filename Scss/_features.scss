@@ -1,0 +1,19 @@
+.bg-img-features{
+    background-image: url("../Images/back-img-features.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center center;
+    @include transition(background-image 400ms);
+}
+
+.m-card-hover:hover .bg-img-features{
+    background-image: url("../Images/back-img-features-hover.png");
+}
+
+.m-card-hover i{
+    @include transition(color 400ms)
+}
+
+.m-card-hover:hover i {
+    color: white !important;
+}
