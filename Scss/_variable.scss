@@ -16,3 +16,21 @@ $color-purple : #3b1d82;
 .bg-pink{
     background-color: #EA0763 !important;
 }
+
+.btn-pink{
+    background-color: #EA0763 !important;
+    color: white;
+
+    &:focus{
+        box-shadow: none;
+    }
+
+    &:active{
+        box-shadow: none;
+    }
+
+    &:hover{
+        color: white;
+        background-color: #B8024C !important;
+    }
+}
