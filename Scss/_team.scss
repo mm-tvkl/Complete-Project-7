@@ -1,0 +1,45 @@
+.bg-team-img{
+    background-image: url("../Images/bg-team-img.png");
+}
+
+.my-card{
+    position: relative;
+    border: 10px solid white;
+    border-radius: 0;
+    overflow: hidden;
+}
+
+.my-card:hover .card-caption{
+    background-color: #a2126a;
+}
+
+.card-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #3a0abe9d;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -10%;
+    left: 0;
+    right: 0;
+    @include transition(top 300ms , opacity 300ms)
+}
+
+.card-caption{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #482780;
+    opacity: .90;
+    @include transition(background-color 300ms)
+}
+
+.my-card:hover .card-overlay{
+    opacity: 1;
+    display: flex;
+    top: 0px;
+}
