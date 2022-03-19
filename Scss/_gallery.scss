@@ -1,0 +1,26 @@
+.my4-card{
+    position: relative;
+    overflow: hidden;
+}
+
+.card2-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000088;
+    bottom: -20%;
+    opacity: 0;
+    @include transition(opacity 300ms , bottom 300ms)
+}
+
+.my4-card:hover .card2-overlay{
+    opacity: 1;
+    bottom: 0;
+}
+
+.bg-gallery-img{
+    background-image: url("../Images/bg-gallery.webp");
+}
