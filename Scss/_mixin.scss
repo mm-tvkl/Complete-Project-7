@@ -4,3 +4,11 @@
     -o-transition: $params;
     -webkit-transition: $params;
 }
+
+@mixin transform($params...) {
+    transform: $params;
+    -moz-transform: $params;
+    -o-transform: $params;
+    -webkit-transform: $params;
+    -ms-transform: $params;
+}
