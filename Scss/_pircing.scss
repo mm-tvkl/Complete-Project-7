@@ -1,0 +1,48 @@
+.btn-pricing{
+    background-color: #e0e0e0 !important;
+    font-size: 1.1rem;
+}
+
+.my2-card:hover{
+    background-color: $color-purple;
+}
+
+.my2-card{
+    transition: all 300ms;
+}
+
+.my2-card:hover h1 ,
+.my2-card:hover h2 ,
+.my2-card:hover h3 ,
+.my2-card:hover h4 ,
+.my2-card:hover h5 ,
+.my2-card:hover h6 , 
+.my2-card:hover small ,
+.my2-card:hover ,
+.my2-card:hover p ,
+.my2-card:hover span {
+    color: white !important;
+}
+
+.my2-card:hover .btn-pricing{
+    background-color: $color-pink !important;
+    color: white;
+}
+
+.text-price{
+    font-size: 5rem;
+    font-weight: 900;
+}
+.text-dollor{
+    font-size: 3rem !important;
+}
+
+@media screen and (max-width:480px) {
+    .text-price{
+        font-size: 4rem;
+        font-weight: 900;
+    }
+    .text-dollor{
+        font-size: 2rem !important;
+    }
+}
