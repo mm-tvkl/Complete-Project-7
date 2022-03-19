@@ -1,0 +1,28 @@
+.my-nav-link[aria-selected="true"]{
+    background-color: $color-purple !important;
+    color: white;
+    border-radius: 0;
+    border: 2px solid $color-purple;
+    width: 100%;
+}
+
+.my-nav-link[aria-selected="false"]{
+    background-color: #dfdfdf !important;
+    color: black;
+    border-radius: 0;
+    border: 2px solid $color-purple;
+    width: 100%;
+}
+
+.bg-avater{
+    background-color: $color-purple;
+    @include transition (background-color 300ms)
+}
+
+.bg-lighter{
+    background-color: #ececec;
+}
+
+.my-horizental-card:hover .bg-avater{
+    background-color: $color-pink;
+}
