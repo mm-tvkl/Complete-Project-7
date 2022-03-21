@@ -1,0 +1,69 @@
+.post-item-link{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 900;
+    @include transition(color 300ms);
+}
+
+.post-item-link:hover{
+    color: #ff62ab !important;
+    @include transition(color 300ms)
+}
+
+.post-bottom-link{
+    color: #6b6b6b;
+    text-decoration: none;
+    font-weight: 400;
+    @include transition(color 300ms);
+}
+
+.post-bottom-link:hover{
+    color: #ff62ab !important;
+    @include transition(color 300ms)
+}
+
+.post-img{
+    border-radius: 200px;
+    @include transition(border-radius 300ms);
+}
+
+.my5-card{
+    border-radius: 10px;
+    border: 0px;
+    @include transition(background-color 300ms);
+}
+
+.my5-card:hover .post-img{
+    border-radius: 10px;
+}
+
+.my5-card:hover{
+    background-color: $color-purple;
+}
+
+.my5-card:hover .post-item-link ,
+.my5-card:hover .post-bottom-link{
+    color: white;
+}
+
+.btn-next-and-prev{
+    background-color: white !important;
+    border: 3px solid $color-pink;
+    padding: 10px;
+    color: $color-pink;
+    font-size: 1.3rem;
+    font-weight: 900;
+    @include transition(all 300ms)
+}
+
+.btn-next-and-prev:hover{
+    background-color: $color-purple !important;
+    border: 3px solid $color-purple;
+    color: white;
+}
+
+.owl-nav{
+    text-align: center !important;
+    margin-top: 20px;
+}
