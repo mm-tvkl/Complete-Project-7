@@ -1,5 +1,5 @@
-const nextBtn = '<button class="d-flex btn-next-and-prev mx-2"><i class="bi bi-arrow-right d-inline-flex"></i></button>';
-const prevBtn = '<button class="d-flex btn-next-and-prev mx-2"><i class="bi bi-arrow-left d-inline-flex"></i></button>';
+const nextBtn = '<button class="d-flex btn-next-and-prev mx-2" style="border-radius:7px;"><i class="bi bi-arrow-right d-inline-flex"></i></button>';
+const prevBtn = '<button class="d-flex btn-next-and-prev mx-2" style="border-radius:7px;"><i class="bi bi-arrow-left d-inline-flex"></i></button>';
 
 $('.owl-carousel').owlCarousel({
     loop: true,
