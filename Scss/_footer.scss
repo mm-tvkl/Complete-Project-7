@@ -1,0 +1,26 @@
+.navigation-list li a{
+    text-decoration: none;
+    @include transition(color 300ms);
+}
+
+.navigation-list li a:hover{
+    color: $color-pink !important;
+}
+
+.emailSub{
+    border: 0;
+    &:focus{
+        box-shadow: none;
+        border: 0;
+    }
+}
+
+.footer-icon{
+    color: gray;
+    text-decoration: none;
+    font-size: 1.3rem;
+    @include transition(color 300ms);
+    &:hover{
+        color: $color-pink !important;
+    }
+}
