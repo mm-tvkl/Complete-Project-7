@@ -81,3 +81,28 @@ nav{
         color: white !important;
     }
 }
+
+.btn-menu{
+    background-color: #e1e1e1;
+    padding: 6px !important;
+    border-radius: 50%;
+    color: $color-pink !important;
+    border: 1.5px solid $color-pink !important;
+    @include transition(background-color 300ms);
+
+    &:hover{
+        background-color: $color-pink;
+    }
+
+    span{
+        @include transition(color 300ms);
+    }
+
+    &:hover span{
+        color: white !important;
+    }
+
+    &:focus{
+        box-shadow: none;
+    }
+}
