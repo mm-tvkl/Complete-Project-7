@@ -1,4 +1,10 @@
 nav{
+    .nav-link:not(.get-ticket){
+        @include transition(color 300ms);
+        &:hover{
+            color: $color-pink !important;
+        }
+    }
     .active{
         color: $color-pink !important;
     }
@@ -66,13 +72,12 @@ nav{
 }
 
 .get-ticket{
-    border: 2px solid $color-purple;
-    border-radius: 100px;
+    border: 2px solid $color-purple !important;
+    border-radius: 100px !important;
     color: $color-purple !important;
-    font-weight: 300;
-}
-
-.get-ticket:hover{
-    background-color: $color-purple;
-    color: white !important;
+    font-weight: 300 !important;
+    &:hover{
+        background-color: $color-purple !important;
+        color: white !important;
+    }
 }
