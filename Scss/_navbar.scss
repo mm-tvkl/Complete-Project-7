@@ -119,3 +119,23 @@ nav{
         }
     }
 }
+
+.my-btn-close{
+    background-color: #e1e1e1;
+    padding: 9px !important;
+    border-radius: 50%;
+    color: $color-pink !important;
+    border: 1.5px solid $color-pink !important;
+
+    &:hover{
+        background-color: $color-pink; 
+    }
+
+    &:hover i{
+        color: white !important;
+    }
+
+    &:focus{
+        box-shadow: none;
+    }
+}

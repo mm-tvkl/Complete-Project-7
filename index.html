@@ -88,11 +88,18 @@
     <!-- Responsive Navbar -->
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample">
         <div class="offcanvas-header d-flex align-items-center justify-content-between">
-            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+            <!-- Btn Close -->
+            <button type="button" class="text-reset my-btn-close d-flex" data-bs-dismiss="offcanvas">
+                <i class="bi bi-x-lg d-inline-flex"></i>
+            </button>
+            
+            <!-- Logo image -->
             <a href="index.html">
                 <img src="./Icons/logo.png" alt="">
             </a>
         </div>
+
+        <!-- Menu Content -->
         <div class="offcanvas-body">
             <ul class="list-unstyled text-center">
                 <li class="responsive-menu-item"><a href="#">Home</a></li>
