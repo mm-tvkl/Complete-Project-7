@@ -106,3 +106,16 @@ nav{
         box-shadow: none;
     }
 }
+
+.responsive-menu-item{
+    margin: 10px 0;
+    
+    a{
+        color: black;
+        text-decoration: none;
+        @include transition(color 300ms);
+        &:hover{
+            color: $color-pink !important;
+        }
+    }
+}
