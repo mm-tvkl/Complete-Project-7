@@ -112,11 +112,35 @@
 
         <!-- Menu Content -->
         <div class="offcanvas-body">
-            <ul class="list-unstyled text-center">
+            <ul class="list-unstyled text-end">
                 <li class="responsive-menu-item"><a href="./index.html">Home</a></li>
                 <li class="responsive-menu-item"><a href="./about.html">About</a></li>
                 <li class="responsive-menu-item"><a href="./speaker.html">Speaker</a></li>
-                <li class="responsive-menu-item"><a href="#">Page</a></li>
+                <li class="responsive-menu-item">
+                    <a data-bs-toggle="collapse" href="#collapseExample">
+                        <i class="bi bi-chevron-down"></i>
+                        Page
+                    </a>
+                    <div class="collapse border-end border-2 border-pink" id="collapseExample">
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="me-2">Page One</a></li>
+                            <li>
+                                <a data-bs-toggle="collapse" href="#collapseExample2" class="me-2">
+                                    <i class="bi bi-chevron-down"></i>
+                                    Page Two
+                                </a>
+                                <div class="collapse border-end border-pink border-2 me-3 pe-2" id="collapseExample2">
+                                    <ul class="list-unstyled ">
+                                        <li><a href="#">Sub Menu 1</a></li>
+                                        <li><a href="#">Sub Menu 2</a></li>
+                                        <li><a href="#">Sub Menu 3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#" class="me-2">Page Three</a></li>
+                        </ul>
+                    </div>
+                </li>
                 <li class="responsive-menu-item"><a href="./blog.html">Blog</a></li>
                 <li class="responsive-menu-item"><a href="./contact.html">Contact</a></li>
                 <li><a class="btn get-ticket" href="./ticket.html">Buy Ticket</a></li>
