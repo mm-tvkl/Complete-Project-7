@@ -1,0 +1,40 @@
+.search-section{
+    position: relative;
+    
+    input{
+        overflow: hidden;
+        padding: 10px 10px;
+        border-color: #e4e4e4;
+
+        &:focus{
+            box-shadow: none;
+            border-color: $color-pink;
+        }
+
+        &::placeholder{
+            color: #b1b1b1;
+        }
+    }
+    
+    .search-section-btn{
+        position: absolute;
+        top: 0;
+        right: 6px;
+        padding: 7px;
+        border: none;
+        background-color: transparent;
+        height: 100%;
+        
+        i{
+            vertical-align: middle;
+        }
+    }
+}
+
+.btn-search{
+    padding: 10px;
+}
+
+.bg-card-side{
+    background-color: #FBF9FF !important;
+}
