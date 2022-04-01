@@ -158,3 +158,32 @@
         }
     }
 }
+
+.pagination-link{
+    color: black;
+    text-decoration: none;
+    background-color: #FBF9FF;
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 4px !important;
+    border: 1px solid #d4d4d4;
+
+    &:hover{
+        background-color: #f0eaff;
+        color: black;
+    }
+}
+
+.page-active{
+    background-color: #f0eaff;
+}
+
+.page-disable{
+    background-color: #e7e7e7;
+    &:hover{
+        background-color: #e7e7e7;
+    }
+}
