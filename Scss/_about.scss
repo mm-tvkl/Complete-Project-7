@@ -1,0 +1,9 @@
+.text-hover-pages{
+    color: white !important;
+    text-decoration: none;
+    @include transition(color 300ms);
+    
+    &:hover{
+        color: #ff49a4 !important;
+    }
+}
