@@ -93,6 +93,10 @@
     position: relative;
     overflow: hidden;
 
+    img{
+        border-radius: 0 !important;
+    }
+
     .card-overlay-feed {
         position: absolute;
         background-color: #00000086;
