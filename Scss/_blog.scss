@@ -69,3 +69,20 @@
         color: $color-pink;
     }
 }
+
+.btn-tag{
+    border: 1px solid #cfcfcf;
+    color: #818181;
+    border-radius: 0;
+    padding: 5px 13px;
+    font-size: .7rem;
+    background-color: white;
+    margin: 5px 4px !important;
+    @include transition(all 300ms);
+
+    &:hover{
+        background-color: $color-purple;
+        border-color: $color-purple;
+        color: white;
+    }
+}
