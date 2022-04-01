@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Icon -->
+    <link rel="icon" href="./Icons/logo-main.png" type="image/png">
+    
+    <!-- Bootstrap and Bootstrap Icon -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    
+    <!-- main.min.css File -->
+    <link rel="stylesheet" href="./Css/main.min.css">
+    <title>Umeet | Speakers</title>
+</head>
+<body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
+            <div class="container">
+    
+                <!-- Logo -->
+                <a class="navbar-brand" href="./index.html">
+                    <img class="img-fluid" src="./Icons/logo.png" alt="logo">
+                </a>
+    
+                <!-- Button For Responsive -->
+                <button class="navbar-toggler btn-menu" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">
+                    <span class="bi bi-list"></span>
+                </button>
+    
+                <!-- Content of Navbar -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <!-- Item 1 - Home -->
+                        <li class="nav-item px-2">
+                            <a class="nav-link py-4" href="./index.html">Home</a>
+                        </li>
+    
+                        <!-- Item 2 - About -->
+                        <li class="nav-item px-2">
+                            <a class="nav-link py-4" href="./about.html">About</a>
+                        </li>
+    
+                        <!-- Item 3 - Speaker -->
+                        <li class="nav-item px-2">
+                            <a class="nav-link py-4 active" href="./speaker.html">Speaker</a>
+                        </li>
+    
+                        <!-- DropDown -->
+                        <li class="nav-item nav-drop px-2">
+                            <a class="nav-link py-4" href="#">Page</a>
+    
+                            <!-- Dropdown Menu 1 -->
+                            <ul class="list-unstyled dropmenu-1">
+                                <li><a class="nav-item-drop border-bottom" href="#">Page One</a></li>
+                                <li class="nav-drop-2">
+                                    <a class="nav-item-drop border-bottom nav-item-drop-hover" id="navItemDrop2" href="#">
+                                        Page Two
+                                        <i class="bi bi-chevron-right ms-5"></i>
+                                    </a>
+    
+                                    <!-- Dropdown Menu 2 -->
+                                    <ul class="list-unstyled dropmenu-2" id="dropMenu2">
+                                        <li><a class="nav-item-drop-2 border-bottom" href="#">Sub Menu 1</a></li>
+                                        <li><a class="nav-item-drop-2 border-bottom" href="#">Sub Menu 2</a></li>
+                                        <li><a class="nav-item-drop-2" href="#">Sub Menu 3</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="nav-item-drop" href="#">Page Three</a></li>
+                            </ul>
+                        </li>
+    
+                        <!-- Item 5 - Blog -->
+                        <li class="nav-item px-2">
+                            <a class="nav-link py-4" href="./blog.html">Blog</a>
+                        </li>
+    
+                        <!-- Item 6 Contact -->
+                        <li class="nav-item px-2">
+                            <a class="nav-link py-4" href="./contact.html">Contact</a>
+                        </li>
+    
+                        <!-- Item 7 - Get Ticket -->
+                        <li class="nav-item px-2 my-auto">
+                            <a class="nav-link get-ticket px-3" href="./ticket.html">Get Ticket</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+</body>
+<!-- Bootstrap.bundle.min.js File -->
+<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- jquery -->
+<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+
+<!-- Fontawsome -->
+<script src="https://kit.fontawesome.com/da92d3d4ac.js" crossorigin="anonymous"></script>
+
+<!-- Script.js -->
+<script src="./Js/script.js"></script>
+</html>
