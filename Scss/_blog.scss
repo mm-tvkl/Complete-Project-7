@@ -38,3 +38,25 @@
 .bg-card-side{
     background-color: #FBF9FF !important;
 }
+
+.list-category{
+    li{
+        border-top: 1px solid #e2e2e2;
+        // border-bottom: 1px solid #d1d1d1;
+        padding: 13px 0px;
+        a{
+            color: black;
+            text-decoration: none;
+            @include transition(color 300ms);
+
+            &:hover{
+                color: $color-pink
+            }
+        }
+    }
+}
+
+.title-section-border{
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+}
