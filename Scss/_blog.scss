@@ -124,3 +124,37 @@
     top: 0;
     opacity: 1;
 }
+
+.my7-card{
+    .my7-card-body{
+        position: relative;
+        .my7-card-body-date{
+            position: absolute;
+            top: -17%;
+            display: inline-flex;
+            flex-direction: column;
+            padding: 10px 30px;
+            background-color: $color-pink;
+            border-radius: 10px;
+        }
+
+        .blog-post-title{
+            color: black;
+            text-decoration: none;
+            @include transition(color 300ms);
+
+            &:hover{
+                color: $color-pink;
+            }
+        }
+
+        .blog-post-footer-link{
+            color: #afafaf;
+            text-decoration: none;
+            @include transition(color 300ms);
+            &:hover{
+                color: $color-pink;
+            }
+        }
+    }
+}
