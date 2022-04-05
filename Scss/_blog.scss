@@ -196,3 +196,21 @@
         color: $color-pink;
     }
 }
+
+.prevPost{
+    text-decoration: none;
+    color: black;
+    @include transition(color 300ms);
+    &:hover{
+        color: $color-pink !important;
+    }
+
+    i{
+        font-size: 3rem;
+    }
+}
+
+.author-post{
+    background-color: #FBF9FF;
+    padding: 40px;
+}
