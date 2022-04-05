@@ -187,3 +187,12 @@
         background-color: #e7e7e7;
     }
 }
+
+.blog-post-footer-link{
+    color: #afafaf;
+    text-decoration: none;
+    @include transition(color 300ms);
+    &:hover{
+        color: $color-pink;
+    }
+}
