@@ -38,3 +38,47 @@
         color: $color-pink;
     }
 }
+
+.btn-raply{
+    text-decoration: none;
+    font-size: 1.1rem;
+    @include transition(color 300ms);
+
+    &:hover{
+        color: $color-pink !important;
+    }
+}
+
+.my-textarea{
+    height: 200px;
+    background-color: transparent;
+
+    &:focus{
+        box-shadow: none;
+        border: 1px solid $color-pink;
+        background-color: transparent;
+    }
+}
+
+.my-input{
+    height: 55px;
+    box-shadow: none;
+    background-color: transparent;
+
+    &:focus{
+        box-shadow: none;
+        border: 1px solid $color-pink;
+        background-color: transparent;
+    }
+}
+
+.btn-send{
+    background-color: $color-purple;
+    color: white;
+    height: 50px;
+
+    &:hover{
+        color: white;
+        background-color: $color-pink;
+    }
+}
