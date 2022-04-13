@@ -30,3 +30,12 @@ body{
 h1,h2,h3,h4,h5,h6{
     font-family: 'Oswald', sans-serif;
 }
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: #eee3ff !important;
+}
